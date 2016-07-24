@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Convert Youtube-style timedtext.xml subtitle format to srt",
   "main": "index.js",
+  "bin": "bin/cmd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
