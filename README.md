@@ -4,6 +4,29 @@ Converts this:
 
 https://www.youtube.com/api/timedtext?caps=asr&asr_langs=ko%2Cit%2Cde%2Cpt%2Cnl%2Cfr%2Cen%2Cru%2Ces%2Cja&sparams=asr_langs%2Ccaps%2Cv%2Cexpire&hl=en_US&signature=C2F78717735B9FBB3F3717DE97397080F85AED68.69181B743726C52FDACF9DB8043553B684A45426&key=yttt1&v=-sGiE10zNQM&expire=1469366672&lang=en&fmt=srv3
 
+```
+<timedtext format="3">
+<body>
+<p t="3934" d="1466">Narrator: Legends.</p>
+<p t="5400" d="2300">Stories scattered through time.</p>
+<p t="8300" d="3360">
+Mankind has grown quite fond of recounting the exploits
+</p>
+<p t="11660" d="3300">of heroes and villains, forgetting so easily</p>
+<p t="14960" d="4320">
+that we are remnants, byproducts, of a forgotten past.
+</p>
+<p t="19767" d="4540">
+Man, born from dust, was strong, wise, and resourceful.
+</p>
+<p t="24700" d="2960">But he was born into an unforgiving world.</p>
+<p t="28300" d="3320">An inevitable darkness, creatures of destruction.</p>
+<p t="31940" d="3593">The creatures of Grimm set their sights on man</p>
+<p t="35533" d="1900">and all of his creations.</p>
+</body>
+</timedtext>
+```
+
 to something more like this:
 
 ```
