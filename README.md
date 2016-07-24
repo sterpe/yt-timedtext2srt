@@ -85,3 +85,9 @@ their sights on man
 and all of his creations.
 
 ```
+
+So then you can transcode Youtube ADP streams to mp4 with a subtitle track like so and things mostly just work:
+
+```
+ffmpeg -i video.mp4 -i audio.mp4 -i subtitles.srt -c:v libx264 -crf 23 -scodec mov_text -metadata:s:s:0 language=eng -c:a aac -q:a 100 -ac 6 -strict -2 -y output.mp4
+```
