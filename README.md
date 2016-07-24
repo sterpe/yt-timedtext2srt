@@ -1,5 +1,13 @@
 # yt-timedtext2srt
 
+## Usage
+```
+npm i -g yt-timedtext2srt
+
+# Only accepts from stdin
+cat timedtext | yt-timedtext2srt > subtitles.srt
+```
+
 Converts this: 
 
 https://www.youtube.com/api/timedtext?caps=asr&asr_langs=ko%2Cit%2Cde%2Cpt%2Cnl%2Cfr%2Cen%2Cru%2Ces%2Cja&sparams=asr_langs%2Ccaps%2Cv%2Cexpire&hl=en_US&signature=C2F78717735B9FBB3F3717DE97397080F85AED68.69181B743726C52FDACF9DB8043553B684A45426&key=yttt1&v=-sGiE10zNQM&expire=1469366672&lang=en&fmt=srv3
