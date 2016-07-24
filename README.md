@@ -27,7 +27,7 @@ Man, born from dust, was strong, wise, and resourceful.
 </timedtext>
 ```
 
-to something more like this:
+to `.srt`:
 
 ```
 0
