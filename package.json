@@ -1,0 +1,30 @@
+{
+  "name": "yt-timedtext2srt",
+  "version": "0.1.0",
+  "description": "Convert Youtube-style timedtext.xml subtitle format to srt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/yt-timedtext2srt.git"
+  },
+  "keywords": [
+    "srt",
+    "youtube",
+    "timedtext",
+    "xml"
+  ],
+  "author": "Steven Terpe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterpe/yt-timedtext2srt/issues"
+  },
+  "homepage": "https://github.com/sterpe/yt-timedtext2srt#readme",
+  "dependencies": {
+    "left-pad": "^1.1.1",
+    "parse-ms": "^1.0.1",
+    "xml2js": "^0.4.17"
+  }
+}
