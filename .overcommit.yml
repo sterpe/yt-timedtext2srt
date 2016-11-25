@@ -1,0 +1,10 @@
+PreCommit:
+  LineLength:
+    enabled: true
+    description: Verify source lines do not exceed 72 columns
+    max: 72
+    exclude: []
+  Standard:
+    enabled: true
+    required_executable: "node_modules/.bin/standard"
+    command: ["node_modules/.bin/standard"]
