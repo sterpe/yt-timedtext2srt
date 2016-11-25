@@ -1,5 +1,5 @@
 # youtube-timedtext2srt
-Converts Youtube `timedtext` ver3 `.xml` subtitle timing format
+Converts Youtube `timedtext` XML ver3 subtitle timing format
 to `*.srt` format for use with `ffmpeg`.
 
 ## install
