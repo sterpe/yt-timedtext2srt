@@ -3,7 +3,10 @@ PreCommit:
     enabled: true
     description: Verify source lines do not exceed 72 columns
     max: 72
-    exclude: ["__tests__/**/*.xml"]
+    exclude: [
+      "__tests__/**/*.xml",
+      "__tests__/**/*.srt"
+    ]
   Standard:
     enabled: true
     required_executable: "node_modules/.bin/standard"
