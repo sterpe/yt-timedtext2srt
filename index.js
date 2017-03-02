@@ -20,6 +20,16 @@ module.exports = function (timedTextXML, cb) {
     }
   })
 }
+function mergeS(s) {
+  if (s) {
+    return s.map(function(it) {
+      return it._
+    }).join('')
+  }
+  else {
+    return ''
+  }
+}
 function parseFormat3(p, cb) {
   var s = ''
   try {
@@ -45,7 +55,7 @@ function parseFormat3(p, cb) {
           '-->',
           endTime
         ].join(' '),
-        p[i]._,
+        p[i]._? p[i]._: mergeS(p[i].s),
         '\n'
       ].join('\n')
       s += subtitle
